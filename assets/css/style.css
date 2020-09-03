@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/*                          Header/Top of the page                                      */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,8 +26,8 @@ header h1 .seo {
     color: #000000;
 }
 
-            /* start of navigation */
 
+/*                       start of navigation   (in header)                   */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,6 +45,8 @@ nav ul li {
     margin-left: 25px;
 }
 
+
+ /*                                  General styles applied                           */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,6 +56,8 @@ p {
     font-size: 1.3rem;
 }
 
+
+ /*                             Background image of the div/(landing page)                       */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +67,29 @@ p {
     background-position: center;
 }
 
+
+
+/*                             Main Content section of the page                     */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-topics {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.main-topics img {
+    max-height: 200px;
+}
+.main-topics h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,12 +100,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+/*                            Aside section of the page                               */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,59 +112,22 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-                          /* some code that is repetative */
-
 .benefits article {
     margin-bottom: 32px;
     color: #000000;
 }
-
-                       /* all the same style */
-
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-                    /* ends here  */
-
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-                  /* another repetative set of styles  */
-
-.main-topics {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 
-
-                                      /* more of the same needs to be simplified  */
-
-.main-topics img {
-    max-height: 200px;
-}
-
-
-
-             /* here comes some more repetativr code */
-
-.main-topics h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
- 
-                       /* it ends here  */
-
+/*                                 Footer/Bottom of the page                            */
 .footer {
     padding: 30px;
     clear: both;
