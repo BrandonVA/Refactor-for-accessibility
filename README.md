@@ -7,7 +7,7 @@ This is a web page that will be refactored using semantic html elements and some
 
 # Conclusion
 
- I also cleaned up the css and html to be more readable, slightly increased the font size and changed some font colors to have better contrast for visual impared users.
+ I cleaned up the css and html to be more readable, slightly increased the font size and changed some font colors to have better contrast for visual impared users.
 
 # Resources 
 
